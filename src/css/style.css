@@ -1,0 +1,22 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    max-width: 1440px;
+    min-width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--dark-blue-main1); /*remover 1 para devolver a cor ao fim*/
+    color: var(--white);
+}
+
+.container {
+    height: 520px;
+    width: 340px;
+    border-radius: 15px;
+    background-color: var(--dark-blue-card);
+}
