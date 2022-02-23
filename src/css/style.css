@@ -12,6 +12,7 @@ body {
     height: 100vh;
     background-color: var(--dark-blue-main1); /*remover 1 para devolver a cor ao fim*/
     color: var(--white);
+    font-size: 1.5rem;
 }
 
 .container {
@@ -48,4 +49,28 @@ body {
     font-size: 1.5rem;
     font-weight: 400;
     color: var(--soft-blue);
+}
+
+.container .description.additional{
+    display: flex;
+}
+
+.container .description .amount{
+    color: var(--cyan);
+}
+
+.container .description .amount::before{
+    content: url(../images/icon-ethereum.svg); 
+}
+
+.container .description .time-left{
+    margin-left: 90px;
+}
+
+.container .description .time-left::before{
+    content: url(../images/icon-clock.svg); 
+}
+
+::before {
+    margin-right: 10px;  
 }
