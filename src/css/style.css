@@ -74,3 +74,9 @@ body {
 ::before {
     margin-right: 10px;  
 }
+
+.container hr {
+    width: 280px;
+    height: 2px;
+    background-color: var(--dark-blue-line, red);
+}
