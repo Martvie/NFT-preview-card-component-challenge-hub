@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-    height: 520px;
+    height: 550px;
     width: 330px;
     border-radius: 15px;
     background-color: var(--dark-blue-card);
@@ -53,6 +53,7 @@ body {
 
 .container .description.additional{
     display: flex;
+    justify-content: space-between;
 }
 
 .container .description .amount{
@@ -63,20 +64,32 @@ body {
     content: url(../images/icon-ethereum.svg); 
 }
 
-.container .description .time-left{
-    margin-left: 90px;
-}
-
 .container .description .time-left::before{
     content: url(../images/icon-clock.svg); 
 }
 
 ::before {
     margin-right: 10px;  
+    position: relative;
+    top: 2px;
 }
 
 .container hr {
+    margin-top: 10px;
     width: 280px;
     height: 2px;
-    background-color: var(--dark-blue-line, red);
+    background-color: var(--dark-blue-line);
+}
+
+.container .creator{
+    display: flex;
+    
+}
+
+.container .creator img{
+    float: inline-start;
+    width: 30px;
+    border: 1px solid var(--white);
+    border-radius: 50px;
+    height: auto;
 }
