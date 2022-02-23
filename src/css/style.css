@@ -33,6 +33,17 @@ body {
     border-radius: 15px;
 }
 
+.container img:hover {
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    background-image: url(../images/icon-view.svg);
+}
+
+.container a {
+    color: var(--white);
+}
+
 .container .description {
     width: 280px;
     text-align: start;
@@ -82,14 +93,24 @@ body {
 }
 
 .container .creator{
+    width: 280px;
     display: flex;
-    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .container .creator img{
-    float: inline-start;
     width: 30px;
     border: 1px solid var(--white);
     border-radius: 50px;
-    height: auto;
+    transform: translate(-30px, -15px);
+    align-self: flex-start;
+}
+
+.container .creator p{
+    text-align: center;
+    justify-content: center;
+    color: var(--soft-blue);
+    vertical-align: baseline;
 }
