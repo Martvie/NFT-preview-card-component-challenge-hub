@@ -27,18 +27,29 @@ body {
    
 } 
 
-.container img {
+.container .equilibrium-container {
     width: 280px;
+    height: 280px;
     margin-top: 25px;
-    border-radius: 15px;
+    border-radius: 1.5rem;
+    background-image: url(../images/image-equilibrium.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.container img:hover {
+.container .equilibrium-container .icon-view {
+    display: none;
+}
+
+.container .equilibrium-container:hover {
     cursor: pointer;
-    background-image: url(../images/icon-view.svg);
-    background-color: var(--cyan);
-    opacity: 0.5;
+    background-image: linear-gradient(var(--cyan-container),var(--cyan-container)),url(../images/image-equilibrium.jpg);
     transition: ease-in-out 0.5s;
+}
+
+.container .equilibrium-container:hover .icon-view{
+    display: block;
+    transform: translate(11.5rem, 11.5rem);
 }
 
 .container a {
@@ -94,6 +105,7 @@ body {
 }
 
 .container .creator{
+    margin-top: 15px;
     width: 280px;
     display: flex;
     align-items: center;
@@ -104,7 +116,6 @@ body {
     width: 30px;
     border: 1px solid var(--white);
     border-radius: 50px;
-    transform: translatey(-14px);
 }
 
 .container .creator p{
