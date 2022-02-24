@@ -32,6 +32,9 @@ body {
     height: 280px;
     margin-top: 25px;
     border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url(../images/image-equilibrium.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -39,9 +42,6 @@ body {
 
 .container .equilibrium-container:hover {
     cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-image: linear-gradient(var(--cyan-container), var(--cyan-container)), url(../images/image-equilibrium.jpg);
 }
 
