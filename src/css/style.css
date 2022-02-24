@@ -37,18 +37,20 @@ body {
     background-size: cover;
 }
 
-.container .equilibrium-container .icon-view {
-    display: none;
-}
-
 .container .equilibrium-container:hover {
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: linear-gradient(var(--cyan-container), var(--cyan-container)), url(../images/image-equilibrium.jpg);
 }
 
+.container .equilibrium-container .icon-view {
+    visibility: hidden;
+}
+
 .container .equilibrium-container:hover .icon-view{
-    display: block;
-    transform: translate(11.5rem, 11.5rem);
+    visibility: visible;
 }
 
 .container a {
