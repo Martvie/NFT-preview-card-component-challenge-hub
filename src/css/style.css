@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: var(--dark-blue-main1); /*remover 1 para devolver a cor ao fim*/
+    background-color: var(--dark-blue-main);
     color: var(--white);
     font-size: 1.5rem;
 }
@@ -43,8 +43,7 @@ body {
 
 .container .equilibrium-container:hover {
     cursor: pointer;
-    background-image: linear-gradient(var(--cyan-container),var(--cyan-container)),url(../images/image-equilibrium.jpg);
-    transition: ease-in-out 0.5s;
+    background-image: linear-gradient(var(--cyan-container), var(--cyan-container)), url(../images/image-equilibrium.jpg);
 }
 
 .container .equilibrium-container:hover .icon-view{
@@ -54,6 +53,11 @@ body {
 
 .container a {
     color: var(--white);
+}
+
+.container a:hover {
+    color: var(--cyan);
+    transition: ease-in-out 0.5s;
 }
 
 .container .description {
