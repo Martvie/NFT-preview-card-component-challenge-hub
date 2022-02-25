@@ -27,11 +27,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](../src/screenshot.jpg)
+![](./src/images/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/resolution-using-css-flexbox-and-css-pseudoelements-HtLvj6pyt)
 - Live Site URL: [Add live site URL here](https://martvie.github.io/NFT-preview-card-component-challenge-hub/)
 
 ## My process
