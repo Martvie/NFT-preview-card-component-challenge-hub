@@ -122,9 +122,12 @@ body {
     width: 30px;
     border: 1px solid var(--white);
     border-radius: 50px;
-    font-family: 400;
 }
 
 .container .creator p{
     color: var(--soft-blue);
+}
+
+.container .creator p, .container .creator p a{
+    font-weight: 400;
 }
